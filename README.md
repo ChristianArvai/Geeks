@@ -5,4 +5,4 @@ Opret et dokument i hjemmemappen kaldet 'geeks.sh' og kopier koden fra https://g
 
 Gem filen og kør denne kommando i Terminalen (Ctrl+Alt+t):
 
-chmod +x geeks.sh && ./geeks.sh.sh
+chmod +x geeks.sh && ./geeks.sh
