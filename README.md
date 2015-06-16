@@ -8,4 +8,4 @@ Gem filen og kør denne kommando i Terminalen (Ctrl+Alt+t):
 
 sudo mv ~/geeks.sh /usr/local/bin && sudo chmod +x /usr/local/bin/geeks.sh 
 
-geeks.sh
+sudo geeks.sh
