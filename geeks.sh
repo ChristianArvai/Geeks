@@ -12,7 +12,8 @@ sudo apt-get update -y &&
 
 # install mysql and serverklient
 sudo apt-get install -y mysql-workbench &&
-sudo apt-get install -y mysql-client mysql-server &&
+sudo apt-get install -y mysql-client && 
+sudo apt-get install -y mysql-server &&
 
 # install oracle 8 (netbeans8 use oracle8) 
 sudo dpkg --configure -a 
