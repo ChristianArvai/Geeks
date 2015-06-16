@@ -43,7 +43,6 @@ sudo add-apt-repository ppa:webupd8team/java &&
 sudo apt-get update && 
 sudo mkdir -p /usr/lib/mozilla/plugins && 
 sudo apt-get install -y oracle-java8-installer &&
-sudo apt-get upgrade -y
 
 # install netbeans8
 wget http://download.netbeans.org/netbeans/8.0.2/final/bundles/netbeans-8.0.2-linux.sh -O ~/netbeans-8.0.2-linux.sh && 
