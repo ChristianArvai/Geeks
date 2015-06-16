@@ -80,3 +80,6 @@ sudo apt-get install -y sl &&
 
 # upgrade ubuntu
 sudo apt-get upgrade -y 
+
+# clean ubuntu
+sudo apt-get autoremove -y
