@@ -57,11 +57,11 @@ chmod +x Visual_Paradigm_CE_Linux64.sh &&
 rm ~/Visual_Paradigm_CE_Linux64.sh
 
 # install android studio
-mkdir ~/Andriod_Studio
-wget https://dl.google.com/dl/android/studio/ide-zips/1.2.2.0/android-studio-ide-141.1980579-linux.zip -O ~/Andriod_Studio/android-studio-ide-141.1980579-linux.zip && 
-cd ~/Andriod_Studio &&
+mkdir ~/.Andriod_Studio
+wget https://dl.google.com/dl/android/studio/ide-zips/1.2.2.0/android-studio-ide-141.1980579-linux.zip -O ~/.Andriod_Studio/android-studio-ide-141.1980579-linux.zip && 
+cd ~/.Andriod_Studio &&
 unzip android-studio-ide-141.1980579-linux.zip && 
-cd ~/Andriod_Studio/android-studio/bin &&
+cd ~/.Andriod_Studio/android-studio/bin &&
 ./studio.sh &&
 cd ~/
 rm ~/Andriod_Studio/android-studio-ide-141.1980579-linux.zip
