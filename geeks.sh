@@ -51,10 +51,13 @@ chmod +x netbeans-8.0.2-linux.sh &&
 rm ~/netbeans-8.0.2-linux.sh
 
 # install visual-paradigm
-wget http://www.visual-paradigm.com/downloads/vpce/Visual_Paradigm_CE_Linux64.sh -O ~/Visual_Paradigm_CE_Linux64.sh && 
-chmod +x Visual_Paradigm_CE_Linux64.sh && 
+mkdir ~/.Visual_Paradigm
+wget http://www.visual-paradigm.com/downloads/vpce/Visual_Paradigm_CE_Linux64.sh -O ~/.Visual_Paradigm/Visual_Paradigm_CE_Linux64.sh && 
+chmod +x ~/.Visual_Paradigm/Visual_Paradigm_CE_Linux64.sh && 
+cd ~/.Visual_Paradigm
 ./Visual_Paradigm_CE_Linux64.sh &&
-rm ~/Visual_Paradigm_CE_Linux64.sh
+cd ~/
+rm ~/.Visual_Paradigm/Visual_Paradigm_CE_Linux64.sh
 
 # install android studio
 mkdir ~/.Andriod_Studio
