@@ -1,4 +1,4 @@
-Script til datamatikeruddannelse
+Script til datamatikeruddannelsen
 
 
 Opret et dokument i hjemmemappen kaldet 'geeks.sh' og kopier koden fra https://github.com/ChristianArvai/Geeks/blob/master/geeks.sh ind i den. 
