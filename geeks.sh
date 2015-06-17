@@ -37,12 +37,14 @@ sudo apt-get purge -y icedtea-plugin
 sudo apt-get purge -y icedtea-7-plugin 
 sudo apt-get purge -y oracle-java7-installer 
 sudo apt-get purge -y oracle-java8-installer
+sudo apt-get purge -y oracle-java9-installer
 sudo add-apt-repository --remove ppa:webupd8team/java
 sudo apt-get autoremove 
 sudo add-apt-repository ppa:webupd8team/java && 
 sudo apt-get update && 
 sudo mkdir -p /usr/lib/mozilla/plugins && 
 sudo apt-get install -y oracle-java8-installer &&
+
 
 # install eclipse
 sudo apt-get install -y eclipse &&
