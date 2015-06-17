@@ -45,7 +45,7 @@ sudo mkdir -p /usr/lib/mozilla/plugins &&
 sudo apt-get install -y oracle-java8-installer &&
 
 # install eclipse
-sudo apt-get install -y eclipse
+sudo apt-get install -y eclipse &&
 
 # install netbeans8
 wget http://download.netbeans.org/netbeans/8.0.2/final/bundles/netbeans-8.0.2-linux.sh -O ~/netbeans-8.0.2-linux.sh && 
