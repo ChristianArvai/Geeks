@@ -44,7 +44,6 @@ sudo apt-get update &&
 sudo mkdir -p /usr/lib/mozilla/plugins && 
 sudo apt-get install -y oracle-java8-installer &&
 
-
 # install eclipse
 sudo apt-get install -y eclipse
 
